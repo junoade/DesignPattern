@@ -1,5 +1,15 @@
-# DesignPattern
-Design Pattern Study
+# OOD & DesignPattern
+Object Oriented Development & Design Pattern Study
+
+### 객체지향 설계 원리 SOLID
+- Single Responsibility Principle : 클래스가 변화하는 이유는 하나만 있을 것.
+- Open Closed Principle : 확장에는 열려 있고, 수정에는 닫혀있을 것.
+- Liskov Substitution Principle : subtype은 base entity(supertype)으로 치환될 수 있을 것.
+- Interface Segregation Principle : 클라이언트는 사용하지 않는 기능에 의존하지 않을 것
+- Dependency Inversion Principle <br/>
+a. 높은 단계의 모듈은 낮은 단계의 모듈에 의존하지 않아야 하고, 둘다 추상화에 의존할 것. <br/>
+b. 추상화는 세부적 디테일 (concrete, details)에 의존하지 않을 것. 구체적인 내용은 추상화에 의존할 것.
+
 
 ### 생성 패턴(Creational Pattern)
 - 추상 팩토리 패턴
