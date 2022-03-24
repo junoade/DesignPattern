@@ -1,4 +1,4 @@
-package lecture.week3.problem09_;
+package lecture.week3.problem09_DIP;
 
 public class SelfDrivingCar {
     Motor motor;

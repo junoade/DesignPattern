@@ -32,6 +32,8 @@ class SelfDrivingCar {
 - Drivable 인터페이스에 기능이 새로 추가된다면, SelfDrivingCar 클래스에서 영향을 줄 수 있음.
 - 따라서 Abstract Should not depend upon details, Details should depend upon abstractions. 를 위반 
 
+![img](./img.png)
+  
 
 ### 나의 솔루션
 - Drivable 인터페이스를 모터를 가속, 브레이크 하는 기능에 관한 Movable 인터페이스로,
