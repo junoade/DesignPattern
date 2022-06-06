@@ -1,5 +1,8 @@
 package lecture.week8.proxy;
 
+/**
+ * protection proxy의 예제
+ */
 public class UserProxyHandler implements UserProxy {
     private User user;
 
